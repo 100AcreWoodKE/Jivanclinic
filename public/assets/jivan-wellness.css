@@ -745,6 +745,11 @@
   height: 100%;
 }
 
+.jivan-legal-card {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 .jivan-card__label {
   display: inline-block;
   font-size: 0.7rem;
