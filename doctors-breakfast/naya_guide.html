@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Naya rTMS Clinical Guide | Jivan Wellness</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #e8e2d4;
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+  .page {
+    max-width: 1100px;
+    margin: 2rem auto;
+    background: white;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    page-break-after: always;
+    min-height: 100vh;
+    position: relative;
+  }
+
+  .page-content {
+    padding: 3rem 3.5rem;
+  }
+
+  .brand-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #C9A96E;
+  }
+
+  .logo {
+    max-width: 170px;
+    height: auto;
+    margin-bottom: 0.75rem;
+    background: transparent;
+    mix-blend-mode: multiply;
+  }
+
+  .tagline {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+    color: #B65C42;
+  }
+
+  h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3.4rem;
+    font-weight: 600;
+    color: #565E4F;
+    text-align: center;
+    margin: 1.2rem 0 0.6rem;
+    letter-spacing: -0.5px;
+  }
+
+  .subhead {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #B65C42;
+    font-style: italic;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #EFE4D1;
+    display: inline-block;
+    padding-bottom: 0.6rem;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #565E4F;
+    margin: 1.8rem 0 1.2rem;
+    border-left: 4px solid #C9A96E;
+    padding-left: 1rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #2c2a28;
+    margin-bottom: 1.1rem;
+  }
+
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.8rem;
+    margin: 2rem 0;
+  }
+
+  .benefit-card {
+    background: #FDF9F3;
+    border-radius: 20px;
+    padding: 1.6rem;
+    border: 1px solid #EFE4D1;
+  }
+
+  .benefit-card h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #B65C42;
+    margin-bottom: 0.6rem;
+    border-bottom: 1px dashed #C9A96E;
+    display: inline-block;
+    padding-bottom: 0.2rem;
+  }
+
+  .benefit-card p {
+    font-size: 1rem;
+    margin-bottom: 0;
+    line-height: 1.55;
+  }
+
+  .app-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem 1.8rem;
+    margin: 1.8rem 0;
+    list-style: none;
+  }
+
+  .app-list li {
+    font-size: 1.05rem;
+    padding: 0.5rem 0 0.5rem 1.2rem;
+    position: relative;
+    color: #2c2a28;
+    line-height: 1.45;
+  }
+
+  .app-list li::before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    color: #C9A96E;
+  }
+
+  .reference-box {
+    background: #EFE4D1;
+    padding: 1.4rem 1.8rem;
+    border-radius: 16px;
+    margin: 2rem 0;
+    border-left: 3px solid #B65C42;
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+
+  .cta-card {
+    background: linear-gradient(135deg, #565E4F 0%, #3F463A 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 24px;
+    text-align: center;
+    margin: 2rem 0 1.5rem;
+  }
+
+  .cta-card strong {
+    font-size: 1.35rem;
+    display: block;
+    margin-bottom: 0.6rem;
+  }
+
+  .cta-card a {
+    color: #C9A96E;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 1px dotted #C9A96E;
+    font-size: 1rem;
+  }
+
+  .page-number {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #9A8878;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e2dcd0;
+  }
+
+  @media print {
+    body { background: white; margin: 0; padding: 0; }
+    .page { box-shadow: none; margin: 0; page-break-after: always; border-radius: 0; }
+    .page-content { padding: 0.7in; }
+    .benefit-card { break-inside: avoid; }
+    .cta-card { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .logo { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+
+  @media (max-width: 700px) {
+    .page-content { padding: 1.5rem; }
+    .benefits-grid { grid-template-columns: 1fr; }
+    .app-list { grid-template-columns: 1fr; }
+    h1 { font-size: 2.4rem; }
+    h2 { font-size: 1.6rem; }
+    p, .app-list li { font-size: 1rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- PAGE 1 -->
+<div class="page">
+  <div class="page-content">
+    <div class="brand-header">
+      <img class="logo" src="https://jivanwellness.life/assets/final%20logo%20jivan.jpg.jpeg" alt="Jivan Wellness">
+      <div class="tagline">Reset Your Brain. Reclaim Your Life.</div>
+    </div>
+    <h1>Naya — The Science of rTMS</h1>
+    <div style="text-align: center;"><div class="subhead">Precision Neuromodulation · Cognitive Performance · Neuro-wellness</div></div>
+    <p><strong>Naya</strong> is the neurotechnology division of Jivan Wellness — dedicated to brain health and cognitive performance through advanced, evidence‑based therapies. Naya brings world‑class neuro‑therapeutic care to East Africa.</p>
+    <p><strong>Repetitive Transcranial Magnetic Stimulation (rTMS)</strong> is a non‑invasive, FDA‑approved therapy that uses gentle magnetic pulses to stimulate specific regions of the brain. The pulses pass painlessly through the scalp and skull to activate neurons in the prefrontal cortex — the area central to mood, focus, and emotional regulation.</p>
+    <p>Treatment is conducted in a comfortable outpatient setting, requires no anaesthesia or sedation, and patients remain fully awake throughout. A typical course runs over several weeks, with each session lasting only a short time.</p>
+    <div class="reference-box"><strong>🔬 First cleared by the U.S. FDA in 2008.</strong> Today, rTMS is drug‑free, non‑surgical, and performed without anaesthesia — a focused, in‑clinic therapy with no downtime.</div>
+    <div class="page-number">Jivan Wellness · www.jivanwellness.life · Page 1 of 4</div>
+  </div>
+</div>
+
+<!-- PAGE 2 -->
+<div class="page">
+  <div class="page-content">
+    <h2>Key Clinical Benefits</h2>
+    <div class="benefits-grid">
+      <div class="benefit-card"><h3>Non‑Invasive & Drug‑Free</h3><p>No surgery, no medication, no anaesthesia. In‑clinic session with no downtime — patients return to their day immediately.</p></div>
+      <div class="benefit-card"><h3>FDA‑Approved & Evidence‑Based</h3><p>Cleared by the U.S. FDA since 2008 for major depressive disorder. Supported by multi‑site randomised controlled trials, with antidepressant remission rates significantly higher than placebo.</p></div>
+      <div class="benefit-card"><h3>Well‑Tolerated</h3><p>Minimal, temporary side effects — most commonly mild scalp sensation. Avoids systemic side effects associated with many medications.</p></div>
+      <div class="benefit-card"><h3>Lasting Results</h3><p>Durable outcomes — clinical studies show a majority of responders maintain benefit for months following a completed course of treatment.</p></div>
+    </div>
+    <p>Beyond depression, emerging evidence supports rTMS for a broad range of neurological and psychiatric conditions, as well as cognitive enhancement in high‑performance individuals.</p>
+    <p>Naya integrates rTMS with precision wellness diagnostics, lifestyle coaching, and holistic support to address root causes — not just symptoms. This integrated model, new to East Africa, represents a paradigm shift in neuro‑therapeutic care.</p>
+    <div class="page-number">Jivan Wellness · www.jivanwellness.life · Page 2 of 4</div>
+  </div>
+</div>
+
+<!-- PAGE 3 -->
+<div class="page">
+  <div class="page-content">
+    <h2>Clinical Applications</h2>
+    <p><strong>rTMS is indicated or shows strong clinical evidence for:</strong></p>
+    <ul class="app-list">
+      <li>Major Depressive Disorder (MDD) — including treatment‑resistant depression</li>
+      <li>Generalised Anxiety Disorder (GAD) — reduction of comorbid anxiety symptoms</li>
+      <li>Obsessive‑Compulsive Disorder (OCD) — FDA‑cleared for OCD</li>
+      <li>ADHD support — improved executive function and attention regulation</li>
+      <li>Burnout recovery & cognitive fatigue in high‑performance professionals</li>
+      <li>Chronic pain management — including fibromyalgia and neuropathic pain</li>
+      <li>Post‑Traumatic Stress Disorder (PTSD) — emerging evidence</li>
+      <li>Mild cognitive impairment and age‑related cognitive decline</li>
+      <li>Post‑stroke aphasia and motor rehabilitation</li>
+    </ul>
+    <p><strong>Typical Treatment Protocol:</strong> A standard course consists of 20–30 sessions over 4–6 weeks, each session lasting 20–40 minutes. Accelerated protocols are also available, with recent studies showing comparable efficacy with fewer visits.</p>
+    <div class="reference-box"><strong>📖 RANZCP Professional Practice Guidelines (2024):</strong> rTMS should only be administered for illnesses where there is adequate evidence of clinical indication and effectiveness. Guidelines provide best‑practice recommendations for optimal patient outcomes.</div>
+    <div class="page-number">Jivan Wellness · www.jivanwellness.life · Page 3 of 4</div>
+  </div>
+</div>
+
+<!-- PAGE 4 -->
+<div class="page">
+  <div class="page-content">
+    <h2>Naya at Jivan Wellness</h2>
+    <p>As East Africa’s first integrated neuro‑wellness clinic, Jivan Wellness combines Naya’s rTMS technology with precision wellness diagnostics, IV therapy, hyperbaric oxygen, and executive performance programmes. Our clinical team brings expertise in neuromodulation, psychiatry, and holistic care — ensuring each patient receives a bespoke, evidence‑based treatment plan.</p>
+    <p><strong>Why Naya?</strong> We believe healing should be precise, personalised, and deeply human. Our advanced brain stimulation protocols are informed by the latest neuroscientific research. We treat across conditions because the brain doesn’t silo symptoms — addressing root causes across physical, emotional, and neural dimensions of health.</p>
+    <div class="cta-card">
+      <strong>🍽️ Doctors Breakfast — Register Your Interest</strong>
+      Capital Club, Nairobi · 3rd & 4th June 2026 · 7:30 AM<br>
+      <a href="https://forms.cloud.microsoft/r/6qgZuF4y0P">https://forms.cloud.microsoft/r/6qgZuF4y0P</a><br>
+      <span style="font-size: 0.9rem;">Scan the QR code on your invitation to confirm attendance.</span>
+    </div>
+    <p><strong>References & Further Reading:</strong> U.S. Food & Drug Administration · Mayo Clinic — TMS overview · American Psychiatric Association · RANZCP Professional Practice Guidelines (2024) · George MS, et al. Arch Gen Psychiatry · O’Reardon JP, et al. Biol Psychiatry · BrainsWay Deep TMS studies · Magstim Horizon Inspire FDA clearance.</p>
+    <div class="page-number">Jivan Wellness · www.jivanwellness.life · Page 4 of 4</div>
+  </div>
+</div>
+
+</body>
+</html>
