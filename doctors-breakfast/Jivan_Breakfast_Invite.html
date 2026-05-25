@@ -3,150 +3,214 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jivan Wellness — rTMS Clinical Briefing | Doctors Breakfast</title>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<title>Jivan Wellness | rTMS Clinical Briefing Invitation</title>
 <style>
-  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
-  :root{--olive:#565E4F;--cream:#EFE4D1;--terra:#B65C42;--dark:#4A3E32;--gold:#C9A96E;--light:#F7F0E6;}
-  html{scroll-behavior:smooth;}
-  body{background:#3F463A;font-family:'Jost',sans-serif;color:var(--dark);
-    min-height:100vh;display:flex;align-items:center;justify-content:center;padding:32px 16px;}
-  .card{background:var(--cream);max-width:500px;width:100%;border-radius:3px;overflow:hidden;
-    box-shadow:0 50px 90px rgba(0,0,0,0.45);}
-  .top{background:var(--olive);padding:42px 36px 34px;text-align:center;position:relative;}
-  .top::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;
-    background:linear-gradient(90deg,var(--olive),var(--terra),var(--gold),var(--terra),var(--olive));}
-  .logo{
-    width:236px;
-    max-width:72%;
-    height:auto;
-    margin:0 auto 14px;
-    display:block;
-    background:transparent;
-    mix-blend-mode:multiply;
-    filter:drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+  /* COMPLETE RESET – no external influence */
+  *, *::before, *::after {
+    all: initial;
+    display: block;
+    box-sizing: border-box;
   }
-  .tagline{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:13px;
-    color:var(--gold);letter-spacing:1.5px;}
-  .body{padding:40px 36px;text-align:center;}
-  .kick{font-size:9px;letter-spacing:4px;color:var(--terra);text-transform:uppercase;font-weight:500;margin-bottom:22px;}
-  .rule{display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:24px;}
-  .rule::before,.rule::after{content:'';width:46px;height:1px;background:var(--gold);}
-  .rule span{width:5px;height:5px;border:1px solid var(--terra);border-radius:50%;transform:rotate(45deg);}
-  .greeting{font-family:'Cormorant Garamond',serif;font-size:19px;font-style:italic;color:var(--terra);margin-bottom:8px;}
-  .intro{font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--dark);margin-bottom:4px;}
-  .title{font-family:'Cormorant Garamond',serif;font-size:42px;font-weight:600;color:var(--olive);line-height:1.1;margin:6px 0;}
-  .sub{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:15px;color:var(--terra);margin-bottom:24px;}
-  .desc{font-size:13.5px;color:#6B5F55;line-height:1.8;font-weight:300;margin-bottom:14px;}
-  .aud{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:12.5px;color:var(--olive);margin-bottom:28px;}
-  .details{background:var(--light);border:1px solid rgba(182,92,66,.22);border-left:3px solid var(--terra);
-    border-radius:2px;padding:22px;margin-bottom:20px;text-align:left;
-    display:grid;grid-template-columns:1fr 1fr;gap:18px 14px;}
-  .dl{font-size:8px;letter-spacing:2.5px;font-weight:600;color:var(--terra);text-transform:uppercase;margin-bottom:4px;}
-  .dv{font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--dark);font-weight:600;}
-  .days{display:flex;gap:9px;margin-bottom:8px;}
-  .day{flex:1;background:var(--olive);color:var(--cream);border-radius:2px;padding:12px 6px;text-align:center;}
-  .day .n{font-size:7.5px;letter-spacing:1.5px;color:var(--gold);text-transform:uppercase;}
-  .day .d{font-family:'Cormorant Garamond',serif;font-size:16px;font-weight:600;margin-top:3px;}
-  .day .w{font-size:8.5px;font-weight:300;}
-  .days-cap{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:11.5px;color:#9A8878;margin-bottom:30px;}
-  .sec-label{font-size:9px;letter-spacing:3px;font-weight:600;color:var(--olive);text-transform:uppercase;margin-bottom:16px;}
-  .agenda{display:flex;flex-direction:column;gap:9px;margin-bottom:34px;text-align:left;}
-  .ag{display:flex;align-items:center;gap:13px;}
-  .ag .t{background:var(--olive);color:var(--cream);font-size:10px;font-weight:500;padding:5px 11px;
-    border-radius:20px;min-width:62px;text-align:center;}
-  .ag .x{font-size:13px;color:var(--dark);font-weight:300;}
-  .reg{background:var(--light);border:1px solid rgba(86,94,79,.18);border-top:3px solid var(--olive);
-    border-radius:2px;padding:28px 22px;text-align:center;}
-  .reg h3{font-family:'Cormorant Garamond',serif;font-size:23px;font-weight:600;color:var(--olive);margin-bottom:8px;}
-  .reg p{font-size:12px;color:#9A8878;font-weight:300;line-height:1.6;margin-bottom:16px;}
-  .note{background:rgba(182,92,66,.06);border:1px dashed rgba(182,92,66,.32);border-radius:2px;
-    padding:13px 15px;margin-bottom:18px;font-size:11px;color:var(--dark);line-height:1.6;text-align:left;}
-  .note b{color:var(--terra);}
-  .form-embed{width:100%;border:none;border-radius:2px;min-height:580px;background:#fff;display:block;}
-  .fine{font-size:10.5px;color:#9A8878;font-weight:300;margin-top:12px;line-height:1.5;}
-  .fine a{color:var(--terra);}
-  .foot{background:var(--olive);padding:26px 32px;text-align:center;position:relative;}
-  .foot::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;
-    background:linear-gradient(90deg,var(--olive),var(--terra),var(--gold),var(--terra),var(--olive));}
-  .foot .c{font-size:11px;color:var(--cream);font-weight:300;margin-bottom:4px;}
-  .foot .w{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:13px;color:var(--gold);}
+  body {
+    all: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #3F463A;
+    font-family: Georgia, 'Times New Roman', serif;
+    padding: 32px 16px;
+  }
+  .card {
+    max-width: 560px;
+    width: 100%;
+    background: #EFE4D1;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.3);
+  }
+  .top {
+    background: #565E4F;
+    padding: 28px 24px 20px;
+    text-align: center;
+  }
+  .logo {
+    max-width: 180px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .tagline {
+    font-style: italic;
+    font-size: 12px;
+    color: #C9A96E;
+    margin-top: 8px;
+  }
+  .body {
+    padding: 32px 28px;
+    text-align: center;
+  }
+  .greeting {
+    font-size: 20px;
+    font-style: italic;
+    color: #B65C42;
+    margin-bottom: 12px;
+  }
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #565E4F;
+    margin: 12px 0 6px;
+  }
+  .sub {
+    font-size: 16px;
+    color: #B65C42;
+    font-style: italic;
+    margin-bottom: 24px;
+  }
+  .desc {
+    font-size: 14px;
+    line-height: 1.55;
+    color: #4A3E32;
+    margin-bottom: 20px;
+  }
+  .details {
+    background: #F7F0E6;
+    border-left: 4px solid #C9A96E;
+    padding: 16px 20px;
+    text-align: left;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .detail-item { font-size: 13px; }
+  .detail-label {
+    font-weight: bold;
+    color: #B65C42;
+    text-transform: uppercase;
+    font-size: 10px;
+  }
+  .days {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .day {
+    flex: 1;
+    background: #565E4F;
+    color: #EFE4D1;
+    border-radius: 16px;
+    padding: 12px;
+    text-align: center;
+  }
+  .day .n { font-size: 9px; color: #C9A96E; }
+  .day .d { font-size: 18px; font-weight: bold; }
+  .day .w { font-size: 10px; }
+  .agenda {
+    text-align: left;
+    margin: 20px 0 28px;
+  }
+  .agenda-item {
+    display: flex;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  .time {
+    width: 95px;
+    font-weight: bold;
+    color: #565E4F;
+  }
+  .reg {
+    background: #F7F0E6;
+    border-top: 3px solid #565E4F;
+    border-radius: 20px;
+    padding: 24px;
+  }
+  .reg h3 {
+    font-size: 24px;
+    color: #565E4F;
+    margin-bottom: 12px;
+  }
+  .note {
+    background: rgba(182,92,66,0.08);
+    border: 1px dashed #B65C42;
+    padding: 12px;
+    font-size: 11px;
+    text-align: left;
+    margin-bottom: 16px;
+  }
+  .form-embed {
+    width: 100%;
+    min-height: 560px;
+    border: none;
+    background: white;
+    border-radius: 16px;
+  }
+  .fine {
+    font-size: 10px;
+    margin-top: 12px;
+  }
+  .foot {
+    background: #565E4F;
+    padding: 16px;
+    text-align: center;
+    font-size: 10px;
+    color: rgba(239,228,209,0.8);
+  }
+  a {
+    color: #B65C42;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  @media (max-width: 500px) {
+    .body { padding: 24px 20px; }
+    .title { font-size: 26px; }
+  }
 </style>
 </head>
 <body>
 <div class="card">
-
   <div class="top">
-    <img class="logo" src="https://jivanwellness.life/assets/final%20logo%20jivan.jpg.jpeg" alt="Jivan Wellness">
+    <img class="logo" src="logo.jpg" alt="Jivan Wellness" onerror="this.src='https://jivanwellness.life/assets/final%20logo%20jivan.jpg.jpeg'">
     <div class="tagline">Reset Your Brain. Reclaim Your Life.</div>
   </div>
-
   <div class="body">
-    <div class="kick">You are cordially invited &middot; Exclusive Clinical Breakfast</div>
-    <div class="rule"><span></span></div>
-
     <div class="greeting" id="greeting">Dear Doctor,</div>
-    <p class="intro">Jivan Wellness warmly invites you to</p>
     <div class="title">rTMS Clinical Briefing</div>
-    <div class="sub">Doctors Breakfast &mdash; Capital Club, Nairobi</div>
-
-    <p class="desc">
-      Join us for an exclusive clinical breakfast exploring the latest advances
-      in neuro-therapeutic care — specifically the application of FDA-approved
-      repetitive Transcranial Magnetic Stimulation (rTMS) in clinical practice.
-      Witness a live demonstration and engage directly with the clinical team.
-    </p>
-    <p class="aud">Reserved for verified healthcare professionals. Spaces are strictly limited.</p>
-
+    <div class="sub">Doctors Breakfast — Capital Club, Nairobi</div>
+    <div class="desc">Join us for an exclusive clinical breakfast exploring the latest advances in neuro‑therapeutic care — specifically the application of FDA‑approved repetitive Transcranial Magnetic Stimulation (rTMS) in clinical practice. Witness a live demonstration and engage directly with the clinical team.</div>
     <div class="details">
-      <div><div class="dl">&#128205; Venue</div><div class="dv">Capital Club, Nairobi</div></div>
-      <div><div class="dl">&#9200; Arrival</div><div class="dv">7:30 AM</div></div>
-      <div><div class="dl">&#127859; Format</div><div class="dv" style="font-size:13px;">Clinical Breakfast Briefing</div></div>
-      <div><div class="dl">&#128101; For</div><div class="dv" style="font-size:13px;">Healthcare Professionals</div></div>
+      <div class="detail-item"><div class="detail-label">VENUE</div>Capital Club, Nairobi</div>
+      <div class="detail-item"><div class="detail-label">ARRIVAL</div>7:30 AM</div>
+      <div class="detail-item"><div class="detail-label">FORMAT</div>Clinical Breakfast Briefing</div>
+      <div class="detail-item"><div class="detail-label">FOR</div>Healthcare Professionals</div>
     </div>
-
     <div class="days">
       <div class="day"><div class="n">Day One</div><div class="d">3 June</div><div class="w">Wednesday</div></div>
       <div class="day"><div class="n">Day Two</div><div class="d">4 June</div><div class="w">Thursday</div></div>
     </div>
-    <p class="days-cap">Select the day that suits you best when you register.</p>
-
-    <div class="sec-label">Programme</div>
     <div class="agenda">
-      <div class="ag"><span class="t">7:30 AM</span><span class="x">Arrival &amp; Welcome — Breakfast served</span></div>
-      <div class="ag"><span class="t">8:00 AM</span><span class="x">Clinical Talk — rTMS: Evidence &amp; Applications</span></div>
-      <div class="ag"><span class="t">8:30 AM</span><span class="x">Live Demonstration — rTMS technology in action</span></div>
-      <div class="ag"><span class="t">9:00 AM</span><span class="x">Q &amp; A — Open discussion with the clinical team</span></div>
+      <div class="agenda-item"><span class="time">7:30 – 8:00</span>Arrival & Breakfast</div>
+      <div class="agenda-item"><span class="time">8:00 – 8:30</span>Clinical Talk: rTMS Evidence & Applications</div>
+      <div class="agenda-item"><span class="time">8:30 – 9:00</span>Live rTMS Demonstration</div>
+      <div class="agenda-item"><span class="time">9:00 – 9:30</span>Q&A with Clinical Team</div>
     </div>
-
     <div class="reg">
       <h3>Reserve Your Place</h3>
-      <p>Spaces are limited. All registrations are reviewed — confirmed professionals
-         receive venue details and day confirmation by return.</p>
-      <div class="note">
-        <b>PLEASE NOTE —</b> To keep this briefing focused and relevant, registration
-        is screened. Please provide your professional registration number and work
-        email. Your confirmed seat will be communicated directly.
-      </div>
-      <iframe class="form-embed"
-        src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=h14-BtPfckqU8npZ-reiOBs7Zj3H9V1HsI74LFN4DjtUNFJVUldFMVlWSVBYVjdGQkFPVkQ3N1JHWC4u&embed=true"
-        title="Jivan Wellness — Register Your Place" allowfullscreen></iframe>
-      <p class="fine">Form not loading?
-        <a href="https://forms.cloud.microsoft/r/6qgZuF4y0P" target="_blank" rel="noopener">Open in a new tab</a>
-        or WhatsApp us on +254 119 111 777.</p>
+      <div class="note"><b>Please note</b> — registration is screened. Provide your professional registration number and work email. Confirmed seats are allocated on a first‑reviewed basis.</div>
+      <iframe class="form-embed" src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=h14-BtPfckqU8npZ-reiOBs7Zj3H9V1HsI74LFN4DjtUNFJVUldFMVlWSVBYVjdGQkFPVkQ3N1JHWC4u&embed=true" title="Registration Form"></iframe>
+      <div class="fine">Form not loading? <a href="https://forms.cloud.microsoft/r/6qgZuF4y0P" target="_blank">Open in new tab</a> or WhatsApp +254 119 111 777</div>
     </div>
   </div>
-
   <div class="foot">
-    <p class="c">talk2us@jivanwellness.life &nbsp;|&nbsp; +254 119 111 777</p>
-    <p class="w">www.jivanwellness.life</p>
+    talk2us@jivanwellness.life | +254 119 111 777
   </div>
-
 </div>
 <script>
-  const p = new URLSearchParams(location.search);
-  const n = p.get('name');
-  if(n) document.getElementById('greeting').textContent = 'Dear ' + decodeURIComponent(n) + ',';
+  var urlParams = new URLSearchParams(window.location.search);
+  var nameParam = urlParams.get('name');
+  if (nameParam) document.getElementById('greeting').innerHTML = 'Dear ' + decodeURIComponent(nameParam) + ',';
 </script>
 </body>
 </html>
