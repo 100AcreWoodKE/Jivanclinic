@@ -1,0 +1,299 @@
+- generic [ref=f15e4]:
+  - generic [ref=f15e7]:
+    - generic [ref=f15e9]:
+      - generic [ref=f15e12]:
+        - link [ref=f15e17] [cursor=pointer]:
+          - /url: /
+          - img "Instagram" [ref=f15e22]
+        - generic [ref=f15e25]:
+          - link [ref=f15e30] [cursor=pointer]:
+            - /url: /
+            - img "Home" [ref=f15e35]
+          - link [ref=f15e40] [cursor=pointer]:
+            - /url: /reels/
+            - img "Reels" [ref=f15e45]
+          - link [ref=f15e52] [cursor=pointer]:
+            - /url: /direct/inbox/
+            - generic [ref=f15e55]:
+              - img "Messages" [ref=f15e57]
+              - generic "Direct messaging – 3 new notifications link" [ref=f15e60]: "3"
+          - link [ref=f15e66] [cursor=pointer]:
+            - /url: /explore/
+            - img "Search" [ref=f15e71]
+          - link [ref=f15e79] [cursor=pointer]:
+            - /url: "#"
+            - img "Notifications" [ref=f15e84]
+          - link [ref=f15e92] [cursor=pointer]:
+            - /url: "#"
+            - img "New post" [ref=f15e97]
+          - link [ref=f15e103] [cursor=pointer]:
+            - /url: /sometkip/
+            - link [ref=f15e108]:
+              - img "sometkip's profile picture" [ref=f15e109]
+        - generic [ref=f15e110]:
+          - link [ref=f15e113] [cursor=pointer]:
+            - /url: "#"
+            - img "Settings" [ref=f15e118]
+          - link [ref=f15e121] [cursor=pointer]:
+            - /url: "#"
+            - img "Also from Meta" [ref=f15e126]
+      - generic [ref=f15e129]:
+        - main [ref=f15e130]:
+          - generic [ref=f15e132]:
+            - generic [ref=f15e133]:
+              - generic [ref=f15e134]:
+                - button [ref=f15e139] [cursor=pointer]:
+                  - link [ref=f15e141]:
+                    - img "jivan_wellness_ke's profile picture" [ref=f15e142]
+                - generic [ref=f15e143]:
+                  - generic [ref=f15e144]:
+                    - generic [ref=f15e145]:
+                      - generic [ref=f15e146]:
+                        - link [ref=f15e147] [cursor=pointer]:
+                          - /url: "#"
+                          - heading "jivan_wellness_ke" [level=2] [ref=f15e148]
+                        - img "Verified" [ref=f15e151]
+                      - button [ref=f15e153] [cursor=pointer]:
+                        - img "Options" [ref=f15e155]
+                    - generic [ref=f15e159]: Jivan Wellness
+                    - generic [ref=f15e161]:
+                      - generic [ref=f15e163]:
+                        - generic [ref=f15e164]: "26"
+                        - text: posts
+                      - link "250 followers" [ref=f15e166] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=f15e167]:
+                          - generic "250" [ref=f15e168]
+                          - text: followers
+                      - link "9 following" [ref=f15e170] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=f15e171]:
+                          - generic [ref=f15e172]: "9"
+                          - text: following
+                  - generic [ref=f15e173]:
+                    - generic [ref=f15e174]:
+                      - button [ref=f15e176] [cursor=pointer]:
+                        - generic [ref=f15e177]:
+                          - text: East Africa's first integrated neuro-wellness clinic Brain therapy + Precision wellness
+                          - link "@precisionwellness_ke" [ref=f15e178]:
+                            - /url: /precisionwellness_ke/
+                          - text: 📍Nairobi
+                      - heading "Harmony centre, General Mathenge drive, Moi, Nairobi Area, Kenya 00100" [level=1] [ref=f15e179]
+                      - button "Link icon booking.pabau.com/jivanwellnessltd/capture/39 and 2 more" [ref=f15e181] [cursor=pointer]:
+                        - generic [ref=f15e182]:
+                          - img "Link icon" [ref=f15e184]
+                          - generic [ref=f15e187]: booking.pabau.com/jivanwellnessltd/capture/39 and 2 more
+                    - link "Followed by cynthia_aginga, jbandit111 and 12 more" [ref=f15e188] [cursor=pointer]:
+                      - /url: /jivan_wellness_ke/followers/mutualOnly
+                      - generic [ref=f15e190]:
+                        - generic [ref=f15e192]:
+                          - button [ref=f15e193]:
+                            - link [ref=f15e194]
+                          - button [ref=f15e195]:
+                            - link [ref=f15e196]
+                          - button [ref=f15e197]:
+                            - link [ref=f15e198]
+                        - generic [ref=f15e199]: Followed by cynthia_aginga, jbandit111 and 12 more
+              - generic [ref=f15e204]:
+                - button "Following Down Chevron Icon" [ref=f15e206] [cursor=pointer]:
+                  - generic [ref=f15e207]:
+                    - generic [ref=f15e208]: Following
+                    - img "Down Chevron Icon" [ref=f15e211]
+                - button "Message" [ref=f15e214] [cursor=pointer]
+                - button [ref=f15e216] [cursor=pointer]:
+                  - img "Similar accounts" [ref=f15e218]
+              - generic:
+                - menu
+            - generic [ref=f15e221]:
+              - tablist [ref=f15e222]:
+                - link [ref=f15e224] [cursor=pointer]:
+                  - /url: /jivan_wellness_ke/
+                  - img "Posts" [ref=f15e226]
+                - link [ref=f15e237] [cursor=pointer]:
+                  - /url: /jivan_wellness_ke/reels/
+                  - img "Reels" [ref=f15e239]
+                - link [ref=f15e242] [cursor=pointer]:
+                  - /url: /jivan_wellness_ke/tagged/
+                  - img "Tagged" [ref=f15e244]
+              - tabpanel
+            - generic [ref=f15e251]:
+              - generic [ref=f15e252]:
+                - link [ref=f15e254] [cursor=pointer]:
+                  - /url: /jivan_wellness_ke/reel/DfG8zZlscpG/
+                  - 'img "Yesterday, we brought healthcare professionals together at Novotel Nairobi for the Jivan Wellness Clinician Breakfast, a morning of meaningful conversations on the future of healthcare✨ A special thank you to our partners, @precisionwellnessdxb_ led by Dr. Tamer Degheidy, for an insightful presentation. He highlighted the importance of sleep as a foundation of long-term health, recovery, and overall well-being, a reminder that longevity starts with how we care for our bodies every day. Join us today, Friday, 30th October, for the official opening of Jivan Wellness as we celebrate a new approach to integrated wellness and precision health.🎉 📍 Jivan Wellness, Nairobi ⏰ 9:00 AM – 12:00 PM We look forward to welcoming you! #jivanwellness #precisionmedicine #longevity #sleephealth #neurowellness" [ref=f15e257]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "Clip"
+                - link [ref=f15e260] [cursor=pointer]:
+                  - /url: /precisionwellness_ke/reel/DfEr7CCx9Zs/
+                  - 'img "A peek inside Precision Wellness Kenya! ✨🇰🇪 Our newest franchise brings together wellness technology, expert guidance, and personalised care in Nairobi. Proud to bring this vision to life with Jivan Wellness and grateful to Jai Pandit for his partnership. 🤝 Your next wellness destination? 👀 #precisionwellnesskenya #nairobiwellness #longevity" [ref=f15e263]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "Clip"
+                - link [ref=f15e266] [cursor=pointer]:
+                  - /url: /jivan_wellness_ke/p/DfEhNHEMHYv/
+                  - 'img "A new chapter in wellness begins!! Join us as we celebrate the opening of Jivan wellness. An evening dedicated to connection, wellbeing and new beginnings✨ 📅Friday, 30th October 2026 🕘9:00AM - 12:00PM 📍Jivan Wellness, Harmony centre, General Mathenge Gardens. Come be part of the experience. Register now using the link in bio!! #jivanwellness #precisionwellnesskenya #opening #openingsocial" [ref=f15e269]'
+              - generic [ref=f15e271]:
+                - link [ref=f15e273] [cursor=pointer]:
+                  - /url: /precisionwellnessdxb_/p/De8mNPBgaZ9/
+                  - 'img "Nairobi, the wait is almost over. ✨ On 31 October 2026, Precision Wellness Kenya opens its doors, and we can’t wait to welcome you. Discover a new wellness destination where science, personalised attention and a warm welcome come together. Save the date and follow us for opening updates. #PrecisionWellness #PrecisionWellnessKenya #NairobiWellness #OpeningSoon #wellnesskenya" [ref=f15e276]'
+                - link [ref=f15e279] [cursor=pointer]:
+                  - /url: /precisionwellnessdxb_/p/De8mEbggz9b/
+                  - 'img "Your wellness journey should be as individual as you are. Meet Precision Wellness. We bring together advanced wellness technologies and personalised journeys, with science at the heart of our approach and you at the centre of the experience. 🌿 Soon, that experience will have a home in Nairobi. Follow us to discover what’s coming. #PrecisionWellness #PrecisionWellnessKenya #PersonalisedWellness #ScienceLedWellness #nairobiwellness" [ref=f15e282]'
+                - link [ref=f15e285] [cursor=pointer]:
+                  - /url: /precisionwellnessdxb_/p/De8lppmAlTK/
+                  - 'img "Nairobi, a new chapter in wellness is coming. 🌿 Precision Wellness is arriving in Kenya, bringing a science-led approach to well-being and a more personal way to begin your wellness journey. We look forward to becoming part of your city. Follow along as we get ready to open our doors. #PrecisionWellness #PrecisionWellnessKenya #NairobiWellness #WellnessKenya #comingsoon" [ref=f15e288]'
+              - generic [ref=f15e290]:
+                - link [ref=f15e292] [cursor=pointer]:
+                  - /url: /jivan_wellness_ke/reel/DcapM_GPUz2/
+                  - 'img "When the people behind a clinic are this excited about what they’re building, you know something special is coming. We asked our team what they’re most looking forward to at Jivan. Watch what happens when people truly believe in what they do. . . #mentalhealth #nairobi #kenya #jivanwellness #mentalhealthawareness" [ref=f15e295]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "Clip"
+                - link [ref=f15e298] [cursor=pointer]:
+                  - /url: /jivan_wellness_ke/reel/DbqCorGvC2p/
+                  - 'img "Three words. No overthinking. We asked our team to describe themselves — and honestly, we couldn’t have said it better ourselves. Meet the people behind Jivan, in their own words. . . #jivanwellness #kenya #nairobi #meetourteam #mentalhealth" [ref=f15e301]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "Clip"
+                - link [ref=f15e304] [cursor=pointer]:
+                  - /url: /jivan_wellness_ke/reel/DbVLb9LvZ67/
+                  - 'img "Every great clinic is built on the people inside it. These are the faces you’ll see when you walk through our doors, the ones who will remember your name, ask how you’re doing, and genuinely mean it when they say they’re here for you. We are so proud to introduce the heart of Jivan. Meet our team. 💛 . #jivanwellness #kenya #nairobi #mentalhealth #mentalhealthawareness" [ref=f15e307]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "Clip"
+              - generic [ref=f15e309]:
+                - link [ref=f15e311] [cursor=pointer]:
+                  - /url: /jivan_wellness_ke/reel/Da5mOywvO4j/
+                  - 'img "Nairobi showed up for brain health — and the conversation in that room was long overdue. Jivan Wellness brought together medical professionals for an intimate rTMS Clinical Briefing. The science, the technology, the questions that don’t usually get asked out loud — all of it, on the table. Two mornings, one room, and a group of people who came ready to listen, challenge, and rethink what treating the brain can actually look like. This is what it looks like when a city starts taking brain health seriously. We’re just getting started. And we’re glad you’re part of it. . #mentalhealth #nairobi #kenya #jivanwellness #awareness" [ref=f15e314]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "Clip"
+                - link [ref=f15e317] [cursor=pointer]:
+                  - /url: /jivan_wellness_ke/p/DakB2UEPUku/
+                  - 'img "Behind Jivan is a team that takes your health as seriously as you do — and on some days, a little more. They came from different backgrounds, different disciplines, different corners of medicine and wellness. But they’re here for the same reason: because they believe the brain and the body deserve to be looked after together. Meet the people who make that possible every single day. . . #jivanwellness #nairobi #kenya #mentalhealth #awareness" [ref=f15e320]'
+                - link [ref=f15e323] [cursor=pointer]:
+                  - /url: /jivan_wellness_ke/reel/DZ26b4pvay4/
+                  - 'img "We talk about fathers as providers, protectors, the steady ones. What we don’t talk about is his mental health — the stress, the tiredness, the things he never names. “I’m fine” became his default — not because it’s true, but because no one’s pushed past it. Happy Father’s Day to every father carrying more than he lets on. We see you.❤️ . . #nairobi #kenya #fathersday #father #mentalhealth" [ref=f15e326]'
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "Clip"
+        - contentinfo [ref=f15e328]:
+          - generic [ref=f15e329]:
+            - generic [ref=f15e331]:
+              - link "Meta" [ref=f15e333] [cursor=pointer]:
+                - /url: https://about.meta.com/
+              - link "About" [ref=f15e336] [cursor=pointer]:
+                - /url: https://about.instagram.com/
+              - link "Blog" [ref=f15e339] [cursor=pointer]:
+                - /url: https://about.instagram.com/blog/
+              - link "Jobs" [ref=f15e342] [cursor=pointer]:
+                - /url: https://about.instagram.com/about-us/careers
+              - link "Help" [ref=f15e345] [cursor=pointer]:
+                - /url: https://help.instagram.com/
+              - link "API" [ref=f15e348] [cursor=pointer]:
+                - /url: https://developers.facebook.com/docs/instagram
+              - link "Privacy" [ref=f15e351] [cursor=pointer]:
+                - /url: /legal/privacy/
+              - link "Terms" [ref=f15e354] [cursor=pointer]:
+                - /url: /legal/terms/
+              - link "Locations" [ref=f15e357] [cursor=pointer]:
+                - /url: /explore/locations/
+              - link "Popular" [ref=f15e360] [cursor=pointer]:
+                - /url: /popular/
+              - link "Instagram Lite" [ref=f15e363] [cursor=pointer]:
+                - /url: /web/lite/
+              - link "Meta AI" [ref=f15e366] [cursor=pointer]:
+                - /url: https://www.meta.ai/?utm_source=foa_web_footer
+              - link "Muse" [ref=f15e369] [cursor=pointer]:
+                - /url: https://muse.ai/
+              - link "Threads" [ref=f15e372] [cursor=pointer]:
+                - /url: https://www.threads.com/
+              - link "Contact uploading and non-users" [ref=f15e375] [cursor=pointer]:
+                - /url: https://www.facebook.com/help/instagram/261704639352628
+            - generic [ref=f15e377]:
+              - generic [ref=f15e378] [cursor=pointer]:
+                - generic [ref=f15e379]:
+                  - generic [ref=f15e380]: English (UK)
+                  - img "Down Chevron Icon" [ref=f15e383]
+                - combobox "Switch display language" [ref=f15e385]:
+                  - option "Afrikaans"
+                  - option "العربية"
+                  - option "Čeština"
+                  - option "Dansk"
+                  - option "Deutsch"
+                  - option "Ελληνικά"
+                  - option "English"
+                  - option "English (UK)" [selected]
+                  - option "Español (España)"
+                  - option "Español"
+                  - option "فارسی"
+                  - option "Suomi"
+                  - option "Français"
+                  - option "עברית"
+                  - option "Bahasa Indonesia"
+                  - option "Italiano"
+                  - option "日本語"
+                  - option "한국어"
+                  - option "Bahasa Melayu"
+                  - option "Norsk"
+                  - option "Nederlands"
+                  - option "Polski"
+                  - option "Português (Brasil)"
+                  - option "Português (Portugal)"
+                  - option "Русский"
+                  - option "Svenska"
+                  - option "ภาษาไทย"
+                  - option "Filipino"
+                  - option "Türkçe"
+                  - option "中文(简体)"
+                  - option "中文(台灣)"
+                  - option "বাংলা"
+                  - option "ગુજરાતી"
+                  - option "हिन्दी"
+                  - option "Hrvatski"
+                  - option "Magyar"
+                  - option "ಕನ್ನಡ"
+                  - option "മലയാളം"
+                  - option "मराठी"
+                  - option "नेपाली"
+                  - option "ਪੰਜਾਬੀ"
+                  - option "සිංහල"
+                  - option "Slovenčina"
+                  - option "தமிழ்"
+                  - option "తెలుగు"
+                  - option "اردو"
+                  - option "Tiếng Việt"
+                  - option "中文(香港)"
+                  - option "Български"
+                  - option "Français (Canada)"
+                  - option "Română"
+                  - option "Српски"
+                  - option "Українська"
+              - generic [ref=f15e386]: © 2026 Instagram from Meta
+    - button [ref=f15e389] [cursor=pointer]:
+      - tooltip "Like 3" [ref=f15e391]:
+        - generic [ref=f15e394]:
+          - generic "Like" [ref=f15e395]
+          - generic [ref=f15e396]: "3"
+  - button [ref=f15e400] [cursor=pointer]:
+    - generic "Messages - 3 new notifications" [ref=f15e401]:
+      - generic [ref=f15e402]:
+        - generic [ref=f15e404]:
+          - img "Messages" [ref=f15e405]
+          - generic "Direct messaging – 3 new notifications link" [ref=f15e408]: "3"
+        - generic [ref=f15e411]: Messages
+      - generic [ref=f15e412]:
+        - button "User avatar Nzisa I. Kioko" [ref=f15e414]:
+          - img "User avatar" [ref=f15e417]
+        - button "User avatar Roina Ochieng" [ref=f15e419]:
+          - img "User avatar" [ref=f15e422]
+        - button "User avatar Benta" [ref=f15e424]:
+          - img "User avatar" [ref=f15e427]

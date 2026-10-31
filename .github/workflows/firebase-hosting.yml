@@ -1,5 +1,5 @@
 # Firebase Hosting: sandbox preview + production on main
-# Merging a PR into `sandbox` or `main` triggers a push — runs the matching deploy.
+# Merging a PR into `sandbox` or `main` triggers a push - runs the matching deploy.
 # https://github.com/firebase/firebase-tools
 
 name: Firebase Hosting

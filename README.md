@@ -1,6 +1,6 @@
-# Jivan Wellness Clinic — Website
+# Jivan Wellness Clinic - Website
 
-This repository holds the public website for **Jivan Wellness Clinic** in Nairobi: the main page, styling, images, and light interactivity (mobile menu, smooth scrolling). There is no backend in this repo—the site is a set of files we host on the web.
+This repository holds the public website for **Jivan Wellness Clinic** in Nairobi: the main page, styling, images, and light interactivity (mobile menu, smooth scrolling). There is no backend in this repo - the site is a set of files we host on the web.
 
 ---
 
@@ -36,11 +36,11 @@ Use a short, clear name (for example `fix-hero-copy` or `add-team-photo`).
 
 You do **not** need Node or a database for this project. Pick whichever option is easiest:
 
-**Quickest — open the file**
+**Quickest - open the file**
 
 - On Mac or Windows, open **`public/index.html`** in Chrome, Edge, or Safari (double-click or drag the file into the browser).
 
-**Better match to the real site — tiny local server**
+**Better match to the real site - tiny local server**
 
 - Open a terminal, go to the project folder, then:
 
@@ -51,7 +51,7 @@ python3 -m http.server 8080
 
 - In the browser, visit `http://localhost:8080`.
 
-**Optional — same tooling as our hosting provider**
+**Optional - same tooling as our hosting provider**
 
 If you already use [Firebase](https://firebase.google.com/) for other work:
 
