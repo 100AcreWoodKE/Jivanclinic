@@ -853,6 +853,22 @@
   font-size: 1rem;
 }
 
+.jivan-cta .jivan-contact {
+  max-width: 720px;
+  margin: 0 auto 1.5rem;
+}
+
+.jivan-cta .jivan-contact p {
+  max-width: none;
+  margin-bottom: 1rem;
+}
+
+.jivan-cta .jivan-contact a {
+  color: var(--jivan-white);
+  font-weight: 600;
+  text-underline-offset: 3px;
+}
+
 .jivan-cta .jivan-btn--primary {
   background: var(--jivan-white);
   color: var(--jivan-deep);
