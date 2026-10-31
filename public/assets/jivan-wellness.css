@@ -1,4 +1,4 @@
-/* Jivan Wellness Clinic — landing page (pairs with jivan-wellness.html) */
+/* Jivan Wellness Clinic - landing page (pairs with jivan-wellness.html) */
 
 .jivan-page {
   --jivan-deep: #0f2e2c;
@@ -290,7 +290,7 @@
   text-decoration: none;
 }
 
-/* Anchor + .jivan-page a (0,1,1) beats .jivan-btn--primary alone — keep pill text readable */
+/* Anchor + .jivan-page a (0,1,1) beats .jivan-btn--primary alone - keep pill text readable */
 .jivan-page a.jivan-btn--primary,
 .jivan-page a.jivan-btn--primary:hover {
   color: var(--jivan-white);
