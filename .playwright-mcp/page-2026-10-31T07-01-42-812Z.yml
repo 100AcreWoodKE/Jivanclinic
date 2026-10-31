@@ -1,0 +1,143 @@
+- generic [ref=e1]:
+  - generic [ref=e8]:
+    - generic [ref=e10]:
+      - link [ref=e13] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e27]:
+        - link [ref=e29] [cursor=pointer]:
+          - /url: /accounts/login/?next=%2Fjivan_wellness_ke%2F&source=desktop_nav
+          - text: Log in
+        - link [ref=e31] [cursor=pointer]:
+          - /url: /accounts/emailsignup/
+          - text: Sign up
+    - main [ref=e32]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - button [ref=e38] [cursor=pointer]:
+            - link [ref=e40]
+          - heading [level=2] [ref=e48]:
+            - generic [ref=e49]: jivan_wellness_ke
+          - list [ref=e54]:
+            - listitem [ref=e55]:
+              - link [ref=e57] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e58]:
+                  - generic [ref=e59]: "250"
+                  - text: followers
+            - listitem [ref=e60]:
+              - link [ref=e62] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e63]:
+                  - generic [ref=e64]: "9"
+                  - text: following
+          - generic [ref=e66]:
+            - generic [ref=e67]: Jivan Wellness
+            - button [ref=e70] [cursor=pointer]:
+              - generic [ref=e71]: East Africa's first integrated neuro-wellness clinic Brain therapy + Precision wellness @precisionwellness_ke 📍Nairobi
+            - button [ref=e72] [cursor=pointer]:
+              - generic [ref=e73]: booking.pabau.com/jivanwellnessltd/capture/39 and 2 more
+        - tablist [ref=e81]:
+          - link [ref=e83] [cursor=pointer]:
+            - /url: /jivan_wellness_ke/
+          - link [ref=e96] [cursor=pointer]:
+            - /url: "#"
+          - link [ref=e101] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e107]:
+          - generic [ref=e110]:
+            - generic [ref=e111]:
+              - link [ref=e113] [cursor=pointer]:
+                - /url: /jivan_wellness_ke/reel/DfG8zZlscpG/
+              - link [ref=e119] [cursor=pointer]:
+                - /url: /precisionwellness_ke/reel/DfEr7CCx9Zs/
+              - link [ref=e125] [cursor=pointer]:
+                - /url: /jivan_wellness_ke/p/DfEhNHEMHYv/
+            - generic [ref=e130]:
+              - link [ref=e132] [cursor=pointer]:
+                - /url: /precisionwellnessdxb_/p/De8mNPBgaZ9/
+              - link [ref=e138] [cursor=pointer]:
+                - /url: /precisionwellnessdxb_/p/De8mEbggz9b/
+              - link [ref=e144] [cursor=pointer]:
+                - /url: /precisionwellnessdxb_/p/De8lppmAlTK/
+            - generic [ref=e149]:
+              - link [ref=e151] [cursor=pointer]:
+                - /url: /jivan_wellness_ke/reel/DcapM_GPUz2/
+              - link [ref=e157] [cursor=pointer]:
+                - /url: /jivan_wellness_ke/reel/DbqCorGvC2p/
+              - link [ref=e163] [cursor=pointer]:
+                - /url: /jivan_wellness_ke/reel/DbVLb9LvZ67/
+            - generic [ref=e168]:
+              - link [ref=e170] [cursor=pointer]:
+                - /url: /jivan_wellness_ke/reel/Da5mOywvO4j/
+              - link [ref=e176] [cursor=pointer]:
+                - /url: /jivan_wellness_ke/p/DakB2UEPUku/
+              - link [ref=e182] [cursor=pointer]:
+                - /url: /jivan_wellness_ke/reel/DZ26b4pvay4/
+          - button [ref=e187] [cursor=pointer]:
+            - generic [ref=e188]: Show more posts from jivan_wellness_ke
+    - contentinfo [ref=e190]:
+      - generic [ref=e191]:
+        - generic [ref=e193]:
+          - link [ref=e195] [cursor=pointer]:
+            - /url: https://about.meta.com/
+            - generic [ref=e196]: Meta
+          - link [ref=e198] [cursor=pointer]:
+            - /url: https://about.instagram.com/
+            - generic [ref=e199]: About
+          - link [ref=e201] [cursor=pointer]:
+            - /url: https://about.instagram.com/blog/
+            - generic [ref=e202]: Blog
+          - link [ref=e204] [cursor=pointer]:
+            - /url: https://about.instagram.com/about-us/careers
+            - generic [ref=e205]: Jobs
+          - link [ref=e207] [cursor=pointer]:
+            - /url: https://help.instagram.com/
+            - generic [ref=e208]: Help
+          - link [ref=e210] [cursor=pointer]:
+            - /url: https://developers.facebook.com/docs/instagram
+            - generic [ref=e211]: API
+          - link [ref=e213] [cursor=pointer]:
+            - /url: /legal/privacy/
+            - generic [ref=e214]: Privacy
+          - link [ref=e216] [cursor=pointer]:
+            - /url: /legal/terms/
+            - generic [ref=e217]: Terms
+          - link [ref=e219] [cursor=pointer]:
+            - /url: /explore/locations/
+            - generic [ref=e220]: Locations
+          - link [ref=e222] [cursor=pointer]:
+            - /url: /popular/
+            - generic [ref=e223]: Popular
+          - link [ref=e225] [cursor=pointer]:
+            - /url: /web/lite/
+            - generic [ref=e226]: Instagram Lite
+          - link [ref=e228] [cursor=pointer]:
+            - /url: https://www.meta.ai/?utm_source=foa_web_footer
+            - generic [ref=e229]: Meta AI
+          - link [ref=e231] [cursor=pointer]:
+            - /url: https://muse.ai/
+            - generic [ref=e232]: Muse
+          - link [ref=e234] [cursor=pointer]:
+            - /url: https://www.threads.com/
+            - generic [ref=e235]: Threads
+          - link [ref=e237] [cursor=pointer]:
+            - /url: https://www.facebook.com/help/instagram/261704639352628
+            - generic [ref=e238]: Contact uploading and non-users
+          - link [ref=e240] [cursor=pointer]:
+            - /url: /accounts/meta_verified/?entrypoint=web_footer
+            - generic [ref=e241]: Meta Verified
+        - generic [ref=e242]:
+          - generic [ref=e243] [cursor=pointer]:
+            - generic [ref=e244]: English (UK)
+            - combobox [ref=e250]
+          - generic [ref=e251]: © 2026 Instagram from Meta
+  - dialog [ref=e264]:
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - status "Loading..." [active] [ref=e271]
+        - generic [ref=e272]:
+          - status "Loading..." [ref=e273]
+          - status "Loading..." [ref=e274]
+      - generic [ref=e275]:
+        - status "Loading..." [ref=e276]
+        - status "Loading..." [ref=e277]

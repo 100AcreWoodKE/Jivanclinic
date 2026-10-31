@@ -1,21 +1,21 @@
 /* Jivan Wellness Clinic - landing page (pairs with jivan-wellness.html) */
 
 .jivan-page {
-  --jivan-deep: #0f2e2c;
-  --jivan-primary: #1a4d4a;
-  --jivan-mid: #2d6d68;
-  --jivan-light: #e8f2f0;
-  --jivan-cream: #f7f5f0;
-  --jivan-gold: #b8956a;
-  --jivan-gold-soft: #d4c4a8;
+  --jivan-deep: #343c30;
+  --jivan-primary: #565f4f;
+  --jivan-mid: #707a68;
+  --jivan-light: #e4e8dc;
+  --jivan-cream: #f1efe3;
+  --jivan-gold: #a95740;
+  --jivan-gold-soft: #dfc5b4;
   --jivan-text: #1a1a1a;
-  --jivan-muted: #5c6564;
-  --jivan-white: #ffffff;
+  --jivan-muted: #62675d;
+  --jivan-white: #fbfaf4;
   --jivan-font-sans: "Inter", system-ui, sans-serif;
   --jivan-font-display: "Cormorant Garamond", Georgia, serif;
   --jivan-radius: 12px;
-  --jivan-shadow: 0 4px 24px rgba(15, 46, 44, 0.08);
-  --jivan-shadow-lg: 0 20px 50px rgba(15, 46, 44, 0.12);
+  --jivan-shadow: 0 4px 24px rgba(52, 60, 48, 0.08);
+  --jivan-shadow-lg: 0 20px 50px rgba(52, 60, 48, 0.12);
 }
 
 /* Division logos */
@@ -35,7 +35,7 @@
   background: var(--jivan-white);
   padding: 0.5rem;
   box-shadow: var(--jivan-shadow);
-  border: 1px solid rgba(26, 77, 74, 0.1);
+  border: 1px solid rgba(86, 95, 79, 0.1);
 }
 
 .jivan-section--alt .jivan-division-logo {
@@ -97,7 +97,7 @@
   padding: 1.5rem;
   background: var(--jivan-white);
   border-radius: var(--jivan-radius);
-  border: 1px solid rgba(26, 77, 74, 0.08);
+  border: 1px solid rgba(86, 95, 79, 0.08);
   box-shadow: var(--jivan-shadow);
   transition: transform 0.2s, box-shadow 0.2s;
 }
@@ -112,7 +112,7 @@
   height: 80px;
   margin: 0 auto 1rem;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--jivan-light) 0%, var(--jivan-cream) 100%);
+  background: var(--jivan-light);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -144,7 +144,7 @@
 .jivan-faq__item {
   background: var(--jivan-white);
   border-radius: var(--jivan-radius);
-  border: 1px solid rgba(26, 77, 74, 0.08);
+  border: 1px solid rgba(86, 95, 79, 0.08);
   margin-bottom: 1rem;
   overflow: hidden;
   box-shadow: var(--jivan-shadow);
@@ -270,7 +270,7 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 1rem;
-  background: var(--jivan-primary);
+  background: var(--jivan-gold);
   color: var(--jivan-white);
   text-decoration: none;
   font-weight: 500;
@@ -292,10 +292,10 @@
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(247, 245, 240, 0.92);
+  background: rgba(241, 239, 227, 0.96);
   -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(26, 77, 74, 0.08);
+  border-bottom: 1px solid rgba(86, 95, 79, 0.08);
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
 }
 
@@ -318,7 +318,7 @@
   height: 62px;
   width: auto;
   object-fit: contain;
-  background: #ffffff;
+  background: var(--jivan-white);
   padding: 6px 12px;
   border-radius: 10px;
   border: 2px solid var(--jivan-gold);
@@ -398,7 +398,7 @@
 .jivan-mobile-nav {
   display: none;
   padding: 1rem 1.25rem 1.25rem;
-  border-top: 1px solid rgba(26, 77, 74, 0.08);
+  border-top: 1px solid rgba(86, 95, 79, 0.08);
   background: var(--jivan-cream);
 }
 .jivan-mobile-nav.is-open {
@@ -409,7 +409,7 @@
   padding: 0.65rem 0;
   font-weight: 500;
   color: var(--jivan-muted);
-  border-bottom: 1px solid rgba(26, 77, 74, 0.06);
+  border-bottom: 1px solid rgba(86, 95, 79, 0.06);
 }
 .jivan-mobile-nav a:last-child {
   border-bottom: none;
@@ -425,16 +425,13 @@
 .jivan-hero {
   position: relative;
   overflow: hidden;
-  padding: clamp(3rem, 8vw, 5.5rem) 1.25rem 4rem;
+  padding: clamp(1.75rem, 4vw, 3rem) 1.25rem;
 }
 
 .jivan-hero__bg {
   position: absolute;
   inset: 0;
-  background:
-    radial-gradient(ellipse 80% 60% at 70% 0%, rgba(45, 109, 104, 0.12), transparent),
-    radial-gradient(ellipse 50% 40% at 10% 80%, rgba(184, 149, 106, 0.1), transparent),
-    linear-gradient(180deg, var(--jivan-cream) 0%, #eef5f3 100%);
+  background: var(--jivan-primary);
   z-index: 0;
 }
 
@@ -444,14 +441,14 @@
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  gap: 2.5rem;
+  gap: 2rem;
   align-items: center;
 }
 
 @media (min-width: 960px) {
   .jivan-hero__inner {
     grid-template-columns: 1.1fr 0.9fr;
-    gap: 3rem;
+    gap: 2rem;
   }
 }
 
@@ -461,14 +458,20 @@
   gap: 0.5rem;
   padding: 0.4rem 0.9rem;
   background: var(--jivan-white);
-  border: 1px solid rgba(26, 77, 74, 0.12);
+  border: 1px solid rgba(86, 95, 79, 0.12);
   border-radius: 999px;
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--jivan-primary);
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.jivan-hero .jivan-badge {
+  background: var(--jivan-gold);
+  border-color: var(--jivan-gold);
+  color: var(--jivan-white);
 }
 
 .jivan-trust-badges {
@@ -487,13 +490,14 @@
   font-size: clamp(2.25rem, 5vw, 3.35rem);
   margin-bottom: 1rem;
   max-width: 14ch;
+  color: var(--jivan-white);
 }
 
 .jivan-hero__lead {
   font-size: 1.125rem;
-  color: var(--jivan-muted);
+  color: rgba(251, 250, 244, 0.88);
   max-width: 36rem;
-  margin-bottom: 1.75rem;
+  margin-bottom: 1.25rem;
 }
 
 .jivan-hero__actions {
@@ -516,30 +520,34 @@
 }
 
 .jivan-btn--primary {
-  background: var(--jivan-primary);
+  background: var(--jivan-gold);
   color: var(--jivan-white);
 }
 .jivan-btn--primary:hover {
-  background: var(--jivan-mid);
+  background: #914733;
   transform: translateY(-1px);
 }
 
 .jivan-btn--ghost {
   background: transparent;
-  color: var(--jivan-deep);
-  border-color: rgba(26, 77, 74, 0.25);
+  color: var(--jivan-white);
+  border-color: rgba(251, 250, 244, 0.55);
 }
 .jivan-btn--ghost:hover {
-  border-color: var(--jivan-primary);
-  background: rgba(255, 255, 255, 0.7);
+  border-color: var(--jivan-white);
+  background: rgba(251, 250, 244, 0.12);
+}
+
+.jivan-page .jivan-hero a.jivan-btn--ghost {
+  color: var(--jivan-white);
 }
 
 .jivan-hero-card {
   background: var(--jivan-white);
   border-radius: var(--jivan-radius);
-  padding: 1.75rem;
+  padding: 1.5rem;
   box-shadow: var(--jivan-shadow-lg);
-  border: 1px solid rgba(26, 77, 74, 0.06);
+  border: 1px solid rgba(86, 95, 79, 0.06);
 }
 
 .jivan-hero-card__title {
@@ -605,16 +613,16 @@
 
 /* Sections */
 .jivan-section {
-  padding: clamp(3rem, 6vw, 5rem) 1.25rem;
+  padding: clamp(1.75rem, 3vw, 2.5rem) 1.25rem;
 }
 
 .jivan-section--alt {
-  background: var(--jivan-white);
+  background: var(--jivan-light);
 }
 
 .jivan-section__head {
   max-width: 720px;
-  margin: 0 auto 2.5rem;
+  margin: 0 auto 1.1rem;
   text-align: center;
 }
 
@@ -624,7 +632,7 @@
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--jivan-gold);
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.45rem;
 }
 
 .jivan-section__head h2 {
@@ -647,12 +655,13 @@
 }
 
 .jivan-pillar {
-  background: var(--jivan-white);
-  padding: 1.35rem 1.25rem;
+  background: var(--jivan-cream);
+  padding: 1rem 1.1rem;
   border-radius: var(--jivan-radius);
-  border: 1px solid rgba(26, 77, 74, 0.08);
+  border: 1px solid rgba(86, 95, 79, 0.08);
   box-shadow: var(--jivan-shadow);
   text-align: center;
+  border-top: 3px solid var(--jivan-gold);
 }
 
 .jivan-pillar strong {
@@ -684,12 +693,13 @@
 }
 
 .jivan-card {
-  background: linear-gradient(165deg, var(--jivan-white) 0%, var(--jivan-light) 100%);
+  background: var(--jivan-light);
   border-radius: 16px;
-  padding: 2rem;
-  border: 1px solid rgba(26, 77, 74, 0.1);
+  padding: 1.5rem;
+  border: 1px solid rgba(86, 95, 79, 0.1);
   box-shadow: var(--jivan-shadow);
   height: 100%;
+  border-left: 3px solid var(--jivan-gold);
 }
 
 .jivan-legal-card {
@@ -767,20 +777,20 @@
 }
 
 .jivan-chip {
-  padding: 0.5rem 1rem;
-  background: var(--jivan-cream);
-  border: 1px solid rgba(26, 77, 74, 0.1);
+  padding: 0.4rem 0.85rem;
+  background: var(--jivan-primary);
+  border: 1px solid var(--jivan-primary);
   border-radius: 999px;
   font-size: 0.875rem;
-  color: var(--jivan-deep);
+  color: var(--jivan-white);
 }
 
 /* CTA band */
 .jivan-cta {
   max-width: 1200px;
   margin: 0 auto;
-  padding: clamp(2rem, 5vw, 4rem);
-  background: linear-gradient(125deg, #103532 0%, #1a4d4a 62%, #27635e 100%);
+  padding: clamp(1.25rem, 2.5vw, 2rem);
+  background: var(--jivan-deep);
   border-radius: 24px;
   color: var(--jivan-white);
   box-shadow: var(--jivan-shadow-lg);
@@ -790,7 +800,7 @@
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
   align-items: center;
-  gap: clamp(2rem, 6vw, 5rem);
+  gap: clamp(1.25rem, 2.5vw, 2.5rem);
 }
 
 .jivan-cta__eyebrow {
@@ -824,12 +834,12 @@
 }
 
 .jivan-cta__card {
-  padding: clamp(1.5rem, 3vw, 2.25rem);
+  padding: clamp(1.25rem, 2.5vw, 1.75rem);
   border: 1px solid rgba(255, 255, 255, 0.72);
   border-radius: 20px;
   background: var(--jivan-cream);
   color: var(--jivan-deep);
-  box-shadow: 0 18px 45px rgba(5, 31, 29, 0.2);
+  box-shadow: 0 18px 45px rgba(52, 60, 48, 0.2);
 }
 
 .jivan-cta__card h3 {
@@ -851,7 +861,7 @@
   flex-direction: column;
   gap: 0.25rem;
   padding: 0.9rem 1rem;
-  border: 1px solid rgba(26, 77, 74, 0.1);
+  border: 1px solid rgba(86, 95, 79, 0.1);
   border-radius: 12px;
   background: var(--jivan-white);
   text-decoration: none;
@@ -881,7 +891,7 @@
 .jivan-cta__visit {
   margin: 1.25rem 0 1.5rem;
   padding-top: 1.2rem;
-  border-top: 1px solid rgba(26, 77, 74, 0.12);
+  border-top: 1px solid rgba(86, 95, 79, 0.12);
 }
 
 .jivan-cta__visit p {
@@ -906,13 +916,13 @@
 .jivan-cta__card a.jivan-btn--primary {
   width: 100%;
   box-sizing: border-box;
-  background: var(--jivan-primary);
+  background: var(--jivan-gold);
   color: var(--jivan-white);
   text-align: center;
 }
 
 .jivan-cta__card a.jivan-btn--primary:hover {
-  background: var(--jivan-mid);
+  background: #914733;
   color: var(--jivan-white);
 }
 
@@ -989,9 +999,9 @@
   height: 100px;
   object-fit: contain;
   border-radius: 8px;
-  background: #1a4d4a;
+  background: var(--jivan-primary);
   padding: 0.75rem;
-  border: 1px solid rgba(184, 149, 106, 0.3);
+  border: 1px solid rgba(169, 87, 64, 0.3);
 }
 
 .jivan-partners-clean .jivan-logo-naya {
@@ -1041,7 +1051,7 @@
   padding: 2rem;
   background: var(--jivan-white);
   border-radius: var(--jivan-radius);
-  border: 1px solid rgba(26, 77, 74, 0.08);
+  border: 1px solid rgba(86, 95, 79, 0.08);
   box-shadow: var(--jivan-shadow);
   transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
   text-decoration: none;
@@ -1051,7 +1061,7 @@
 .jivan-partner:hover {
   transform: translateY(-2px);
   box-shadow: var(--jivan-shadow-lg);
-  border-color: rgba(26, 77, 74, 0.15);
+  border-color: rgba(86, 95, 79, 0.15);
 }
 
 .jivan-partner__logo {
@@ -1062,7 +1072,7 @@
   background: var(--jivan-cream);
   padding: 0.5rem;
   flex-shrink: 0;
-  border: 1px solid rgba(26, 77, 74, 0.1);
+  border: 1px solid rgba(86, 95, 79, 0.1);
 }
 
 .jivan-partner__info {
@@ -1113,8 +1123,8 @@
 
 /* Footer */
 .jivan-footer {
-  padding: 2.5rem 1.25rem;
-  border-top: 1px solid rgba(26, 77, 74, 0.1);
+  padding: 2rem 1.25rem;
+  border-top: 1px solid rgba(86, 95, 79, 0.1);
   background: var(--jivan-deep);
   color: rgba(255, 255, 255, 0.75);
   font-size: 0.875rem;
