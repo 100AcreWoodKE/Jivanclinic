@@ -191,59 +191,6 @@
   font-size: 1rem;
 }
 
-.jivan-form__note {
-  text-align: center;
-  font-size: 0.8rem;
-  opacity: 0.7;
-  margin-top: 1rem;
-  color: var(--jivan-white);
-}
-
-/* Microsoft Forms embed (waitlist) */
-.jivan-embed {
-  max-width: 640px;
-  margin: 1.5rem auto 0;
-  text-align: center;
-}
-
-.jivan-embed__frame {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-  max-height: 100vh;
-  border: none;
-  border-radius: 12px;
-  background: rgba(0, 0, 0, 0.12);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-}
-
-.jivan-embed__fallback {
-  margin: 0.85rem 0 0;
-  font-size: 0.9rem;
-  color: rgba(255, 255, 255, 0.85);
-  line-height: 1.5;
-}
-
-.jivan-embed__link {
-  color: var(--jivan-gold-soft);
-  font-weight: 600;
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
-.jivan-embed__link:hover {
-  color: var(--jivan-white);
-}
-
-.jivan-embed__hint {
-  opacity: 0.85;
-}
-
-.jivan-embed__privacy {
-  margin-top: 1.25rem;
-}
-
 /* Social links */
 .jivan-social {
   display: flex;
@@ -368,7 +315,7 @@
 }
 
 .jivan-logo__img {
-  height: 56px;
+  height: 62px;
   width: auto;
   object-fit: contain;
   background: #ffffff;
@@ -832,49 +779,166 @@
 .jivan-cta {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2.5rem 1.75rem;
-  background: linear-gradient(135deg, var(--jivan-deep) 0%, var(--jivan-primary) 50%, #234f4c 100%);
-  border-radius: 20px;
-  text-align: center;
+  padding: clamp(2rem, 5vw, 4rem);
+  background: linear-gradient(125deg, #103532 0%, #1a4d4a 62%, #27635e 100%);
+  border-radius: 24px;
   color: var(--jivan-white);
   box-shadow: var(--jivan-shadow-lg);
 }
 
-.jivan-cta h2 {
+.jivan-cta__layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+  align-items: center;
+  gap: clamp(2rem, 6vw, 5rem);
+}
+
+.jivan-cta__eyebrow {
+  margin: 0 0 1rem;
+  color: var(--jivan-gold-soft);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.jivan-cta__intro h2 {
   color: var(--jivan-white);
-  font-size: clamp(1.5rem, 3vw, 2rem);
-  margin-bottom: 0.75rem;
+  max-width: 12ch;
+  margin: 0 0 1rem;
+  font-size: clamp(2.2rem, 4.5vw, 3.5rem);
+  line-height: 1.04;
 }
 
-.jivan-cta p {
-  opacity: 0.92;
-  max-width: 520px;
-  margin: 0 auto 1.5rem;
-  font-size: 1rem;
+.jivan-cta__intro p {
+  max-width: 34rem;
+  margin: 0 0 1rem;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 1.05rem;
 }
 
-.jivan-cta .jivan-contact {
-  max-width: 720px;
-  margin: 0 auto 1.5rem;
+.jivan-cta__intro .jivan-cta__supporting {
+  margin-top: 1.5rem;
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 0.95rem;
 }
 
-.jivan-cta .jivan-contact p {
-  max-width: none;
-  margin-bottom: 1rem;
+.jivan-cta__card {
+  padding: clamp(1.5rem, 3vw, 2.25rem);
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  border-radius: 20px;
+  background: var(--jivan-cream);
+  color: var(--jivan-deep);
+  box-shadow: 0 18px 45px rgba(5, 31, 29, 0.2);
 }
 
-.jivan-cta .jivan-contact a {
+.jivan-cta__card h3 {
+  margin: 0 0 1.25rem;
+  color: var(--jivan-deep);
+  font-family: var(--jivan-font-display);
+  font-size: 1.7rem;
+}
+
+.jivan-cta__methods {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.jivan-cta__method {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid rgba(26, 77, 74, 0.1);
+  border-radius: 12px;
+  background: var(--jivan-white);
+  text-decoration: none;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.jivan-cta__method:hover {
+  border-color: var(--jivan-gold);
+  transform: translateY(-2px);
+}
+
+.jivan-cta__method span,
+.jivan-cta__visit > span {
+  color: var(--jivan-muted);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.jivan-cta__method strong {
+  overflow-wrap: anywhere;
+  color: var(--jivan-deep);
+  font-size: 0.9rem;
+}
+
+.jivan-cta__visit {
+  margin: 1.25rem 0 1.5rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid rgba(26, 77, 74, 0.12);
+}
+
+.jivan-cta__visit p {
+  margin: 0.4rem 0 0;
+  color: var(--jivan-deep);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.jivan-cta__visit p + p {
+  color: var(--jivan-muted);
+  font-size: 0.84rem;
+}
+
+.jivan-cta__actions {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.8rem;
+}
+
+.jivan-cta__card a.jivan-btn--primary {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--jivan-primary);
   color: var(--jivan-white);
-  font-weight: 600;
+  text-align: center;
+}
+
+.jivan-cta__card a.jivan-btn--primary:hover {
+  background: var(--jivan-mid);
+  color: var(--jivan-white);
+}
+
+.jivan-cta__directions {
+  align-self: center;
+  color: var(--jivan-primary);
+  font-size: 0.9rem;
+  font-weight: 700;
   text-underline-offset: 3px;
 }
 
-.jivan-cta .jivan-btn--primary {
-  background: var(--jivan-white);
-  color: var(--jivan-deep);
+.jivan-cta__directions:focus-visible,
+.jivan-cta__method:focus-visible {
+  outline: 2px solid var(--jivan-gold);
+  outline-offset: 3px;
 }
-.jivan-cta .jivan-btn--primary:hover {
-  background: var(--jivan-cream);
+
+@media (max-width: 760px) {
+  .jivan-cta__layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.75rem;
+  }
+
+  .jivan-cta__intro h2 {
+    max-width: 16ch;
+  }
 }
 
 /* Contact */
